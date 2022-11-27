@@ -1,0 +1,353 @@
+header{
+    padding-top: 11px;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: grid;
+    grid-template-columns: 10% 60%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30%;
+    grid-row-gap: 0px;
+    
+}
+main{
+    padding-top: 11px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.LogoText{
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    line-height: 170%;
+    font-weight: 700;
+}
+
+.navBlock {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 30px;
+}
+
+.navItem{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: all 300ms;
+    
+}
+.navItem:hover{
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-weight: 600;
+}
+
+
+.ContactBtn{
+    background: #2C3878;
+    border: 0.291414px solid #3C3C3C;
+    font-size: 20px;
+    line-height: 160%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    transition: all 300ms;
+    border-radius: 5px;
+}
+.ContactBtn:hover{
+    color: aquamarine;
+    padding: 12px 17px;
+}
+
+
+.BlockNum1{
+    margin-top: 30px;
+    
+}
+
+.FirstSectionBlock{
+    position: relative;
+    padding-bottom: 320px;
+}
+.LargePhrase{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 140%;
+    width: 40%;
+    color: #333333;
+    position: absolute;
+}
+.Line1{
+    position: absolute;
+    width: 60%;
+    right: 0%;
+    margin-top: 50px;
+}
+.FirstBkgBlock{
+    background-image: url('img/bkg/Bkg1.jpg');
+    width: 100%;
+    height: 800px;
+    background-repeat: none;
+    background-size: 100%;
+    position: relative;
+}
+
+.InfoBlockNum1{
+    background-color: #2C3878;
+    width: 18%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 0px;
+    position: absolute;
+    margin-top: -1000px;
+    margin-left: 50%;
+}
+
+.InfoBlockItem{
+    padding: 70px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #fff;
+}
+
+.InfoBlockItem .NumText{
+    font-size: 65px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.InfoBlockItem .UnderText{
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.BlockNum2{
+    margin-top: 150px;
+
+}
+
+.LineNameBlock{
+    display: grid;
+    grid-template-columns: 10% 40%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.LineNameBlock p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000;
+    text-transform: uppercase;
+}
+.LineNameBlock hr{
+    width: 100%;
+    height: 1px;
+    margin-top: 38px;
+}
+
+.BlockNum2, .InfoBlock{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 170%;
+    color: #333333;
+
+}
+
+.PostBlock{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+}
+.PostBlock .ImgBlock{
+    width: 100%;
+    position: relative;
+}
+
+.PostBlock .ImgBlock img{
+    width: 100%;
+    
+}
+
+.PostBlock .CommentsBlock{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 60px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 200px;
+    padding: 12px 20px;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-top: -600px;
+    margin-left: 95%;
+    box-shadow: 9px 14px 41px -3px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 9px 14px 41px -3px rgba(0,0,0,0.51);
+    -moz-box-shadow: 9px 14px 41px -3px rgba(0,0,0,0.51);
+}
+.PostBlock .CommentsBlock .AvaImg{
+    border-radius: 100%;
+    width: 50px;
+    
+}
+.PostBlock .CommentsBlock .AvaImg img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.PostBlock .CommentsBlock .AuthorText{
+    font-size: 20px;
+    line-height: 105%;
+}
+
+.PostBlock .CommentsBlock .AuthorText .PostName{
+    font-size: 18px;
+    color: #666666;
+    
+}
+
+.PostBlock .CommentsFullBlock {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.PostBlock .CommentsFullBlock .CommentsText{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #9C9C9C;
+    padding: 20% 20%;
+    margin-top: 20%;
+}
+
+.PostBlock .CommentsFullBlock .BtnMore {
+    padding: 15px 30px;
+    background-color: #2C3878;
+    font-size: 20px;
+    margin-left: 20%;
+    color: #fff;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.PostBlock .CommentsFullBlock .BtnMore:hover {
+    background-color: #3c4a9b;
+    font-size: 20px;
+    margin-left: 20%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.BlockNum3 {
+    margin-top: 200px;
+}
+
+.BlockNum3 .ServiceBlock{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.BlockNum3 .ServiceBlock {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 170%;
+    color: #333333;
+}
+
+.BlockNum3 .ServiceBlock .DetailsBlock{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #9C9C9C;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.ServiceBlock{
+    background-color: #fff;
+    z-index: 1;
+}
+
+.ServiceBlock ,.OptionsList {
+    margin-top: 75px;
+}
+
+.ServiceBlock .OptionsList .OptionItem{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 50px 30px;
+    width: 70%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #333333;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 300ms;
+}
+
+.ServiceBlock .OptionsList .OptionItem:hover{
+    box-shadow: 10px 15px 51px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 15px 51px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 15px 51px -4px rgba(0,0,0,0.75);
+}
+
+.ServiceBlock .OptionsList .OptionItem .NumId, .NameOption, .ArrowBlock{
+    position: relative;
+}
+
+.ServiceBlock .OptionsList .OptionItem .NumIdText, .NameOptionText, .ArrowBlockImg{
+    position: absolute;             
+    top: 50%;                        
+    transform: translate(0, -50%);
+}
+
+
+.ServiceBlock .OptionsList .OptionItem .ArrowBlock{
+    width: 70px;
+}
+.ServiceBlock .OptionsList .OptionItem .ArrowBlock img{
+    width: 100%;
+}
+
+.BlockNum3 .BkgBlock4{
+    width: 85%;
+    height: 800px;
+    margin-left: 15%;
+    margin-top: -200px;
+    background-image: url('img/bkg/Bkg4.jpg');
+    background-size: 100%;
+    background-repeat: none;
+    z-index: 2;
+}
